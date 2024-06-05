@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding for the document -->
+  <meta charset="UTF-8">
+  <!-- Viewport settings for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the page -->
+  <title>Weather App</title>
+  <!-- Link to the external stylesheet -->
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Main container for the app -->
+  <div class="app-wrap">
+    <!-- Header section containing the search input -->
+    <header>
+      <!-- Input box for searching cities, with autocomplete turned off -->
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <!-- Main content section -->
+    <main>
+      <!-- Section for displaying the location information -->
+      <section class="location">
+        <!-- Div for displaying the city and country -->
+        <div class="city">New York, US</div>
+        <!-- Div for displaying the date -->
+        <div class="date">Wednesday 22 July 2020</div>
+      </section>
+      <!-- Div for displaying the current weather information -->
+      <div class="current">
+        <!-- Div for displaying the current temperature -->
+        <div class="temp">15<span>°c</span></div>
+        <!-- Div for displaying the weather description -->
+        <div class="weather">Sunny</div>
+        <!-- Div for displaying the high and low temperatures -->
+        <div class="hi-low">13°c / 16°c</div>
+      </div>
+    </main>
+  </div>
+  <!-- Including JavaScript file for functionality -->
+  <script src="main.js"></script>
+</body>
+</html>
